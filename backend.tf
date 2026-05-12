@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "terraform-s3-backend-amdocs"
+    bucket         = "terraform-s3-backend-practice"
     key            = "amdocs/env/non-prod/terraform.tfstate"
     region         = "ap-south-1"
     encrypt        = true
